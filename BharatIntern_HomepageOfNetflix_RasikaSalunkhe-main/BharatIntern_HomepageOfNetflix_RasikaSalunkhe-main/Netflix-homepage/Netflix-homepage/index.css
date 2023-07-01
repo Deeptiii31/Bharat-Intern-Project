@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background: black;
+}
+.story-card {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 50px 5%;
+    position: relative;
+}
+.story-card .card-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.story-card .story-card-text {
+    flex: 0 1 auto;
+    height: 100%;
+    padding: 0 3rem 0 0;
+    width: 52%;
+    z-index: 3;
+}
+.story-card-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.story-card-subtitle, .story-card-text {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.story-card .story-card-img-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%;
+}
+
+.story-card .story-card-animation-container {
+    margin: -10% -5% -5% 0;
+}
+.story-card .story-card-img, .animation-card.watchOnTv .story-card-img {
+    position: relative;
+    z-index: 2;
+}
+img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+.story-card .story-card-animation {
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.story-card .story-card-video, .story-card .story-card-video {
+    height: 100%;
+    width: 100%;
+}
+.story-card .story-card-animation-container {
+    overflow: hidden;
+    position: relative;
+}
+
