@@ -1,1 +1,3 @@
-Web Development Project Using HTML,CSS,JAVASCRIPT
+Web Development Project
+<br>
+Using HTML,CSS,JAVASCRIPT
